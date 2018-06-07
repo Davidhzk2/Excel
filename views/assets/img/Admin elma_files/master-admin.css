@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  --Oswald: 'Oswald', sans-serif;
+  --Roboto: 'Roboto', sans-serif;
+  outline: none;
+  --gris:#d9d9d9 ;
+  --verde:  #00877e;
+  /* background-color: var(--gris); */
+}
+/* TODO: Menu top */
+
+.topMenu{
+  width: 100%;
+  height:50px;
+  background-color: var(--verde);
+}
+.topMenu ul{
+  display: grid;
+  width: 100%;
+  height: 50px;
+}
+.topMenu ul .wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapitem{
+  display: flex;
+  width: 70%;
+}
+.wrap-out{
+  display: flex;
+  width: 30%;;
+  justify-content: flex-end;
+  color: black;
+}
+.topMenu .wrapitem .item, .wrap-out{
+  font-size: 30px;
+  margin: 10px;
+}
+.topMenu .wrapitem input,button{
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid rgba(161,161,161,063);
+  margin: 10px;
+}
+/* ---------------------- */
+/* TODO: Registar Docente */
+.wrapRegis{
+  width: 60%;
+  border: 1px solid rgb(121, 121, 121);
+  text-align: center;
+}
