@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^Docente$ index.php?c=views&a=Docente
