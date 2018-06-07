@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="views/assets/css/master.css">
     <link rel="shortcut icon" href="views/assets/img/excel.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto:400,700" rel="stylesheet">
     <title>Excel</title>
   </head>
   <body>

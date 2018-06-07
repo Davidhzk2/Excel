@@ -34,3 +34,35 @@
   left: 0px;
   top: 0px;
 }
+/* TODO: login / landing page */
+.img{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+}
+.wrapLogin{
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  width: 400px;
+  height: 500px;
+  display: grid;
+}
+.formInput{
+  display: flex;
+  flex-direction: column;
+}
+.formInput h1{
+  text-align: center;
+  text-transform: uppercase;
+}
