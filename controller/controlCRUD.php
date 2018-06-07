@@ -1,5 +1,4 @@
 <?php  
-
  /**
  * 
  */
@@ -12,6 +11,8 @@
  	public function RegistroUsuarioController();
  	{
  		if (!empty($_POST['registro'])) {
+
+ 			crypt($_POST['registro'],"$2a$07$usesomesillystringforsalt$");
  			
  			$datos = array('value1' => $_POST['registro'] ,'value2' => $_POST['registro']);
 
@@ -35,7 +36,7 @@
  	{
  		if (!empty($_POST['logeo'])) {
 
- 			$contrasena=crypt($_POST['logeo'],"")
+ 			$contrasena=crypt($_POST['logeo'],"$2a$07$usesomesillystringforsalt$")
  			
  			$datos = array('value1' => $_POST['logeo'] ,'value2' => $contrasena);
 
@@ -52,7 +53,7 @@
  			header("location:pagina_principal.php");
  			
  		}else{
- 			echo "<script languaje='javascript'>alert('El Correo ya esta en uso');location.href = 'logeo.php';</script>";
+ 			echo "<script languaje='javascript'>alert('');location.href = 'logeo.php';</script>";
  		}
  	}
 
@@ -71,7 +72,7 @@
  		}
 
 
- 		if ($respuesta=="ok") {
+ 		if ($respuesta=="ok"){
  			header("location:controlador.CRUD.php");
  		}else{
  			header("location:controlador.CRUD.php");
