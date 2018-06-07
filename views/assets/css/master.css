@@ -86,7 +86,7 @@
   font-family: var(--Oswald);
 }
 .formInput input{
-  padding: 5px;
+  padding: 6px;
   margin: 5px 0px;
   border-radius: 3px;
   border: 1px solid #9d9b9b;
