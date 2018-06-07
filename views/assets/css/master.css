@@ -3,3 +3,34 @@
   padding: 0px;
   list-style: none;
 }
+/* TODO: standar modal */
+.wrapModal{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.modal{
+  background: #fff;
+  padding: 10px;
+}
+/* TODO: top menu, estilos del menu superior */
+.topMenu{
+  width: 100%;
+  height: 50px;
+  background: #00877e;
+}
+/* TODO: left menu, estilos del menu izquierdo */
+.leftMenu{
+  width: 250px;
+  height: 100vh;
+  background: #d9d9d9;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
