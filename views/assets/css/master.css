@@ -4,6 +4,7 @@
   list-style: none;
   --Oswald: 'Oswald', sans-serif;
   --Roboto: 'Roboto', sans-serif;
+  outline: none;
 }
 /* TODO: standar modal */
 .wrapModal{
@@ -57,15 +58,18 @@
   background: #fff;
   border-radius: 5px;
   width: 400px;
-  height: 500px;
+  height: 380px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid rgba(181,181,181,083);
+  box-shadow: 0 20px 50px -20px black;
 }
 .formInput{
   display: flex;
   flex-direction: column;
   width: 90%;
+  margin-bottom: 20px;
 }
 .formInput:nth-child(1){
   margin-top: 20px;
@@ -80,4 +84,22 @@
 .formInput label{
   text-transform: uppercase;
   font-family: var(--Oswald);
+}
+.formInput input{
+  padding: 5px;
+  margin: 5px 0px;
+  border-radius: 3px;
+  border: 1px solid #9d9b9b;
+}
+.formInput button{
+  border: 1px solid #636363;
+  background: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.formInput button:hover{
+  background: #dfdfdf;
 }
